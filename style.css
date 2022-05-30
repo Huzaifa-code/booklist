@@ -1,0 +1,78 @@
+*{
+    font-family: ubuntu;
+}
+
+.container h1{
+    font-size: 2.5rem;
+}
+.container h1 span,
+.container h1 i{
+    color: #38ada9;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-form{
+    width: 30%;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+}
+.form-group input{
+    height: 1.5rem;
+    outline-style: none;
+    border-radius: 10px;
+    border: 1px solid #2d3436;
+    font-size: 1rem;
+}
+
+.book-form input.btn{
+    width: 100%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    height: 2rem;
+    border-style: none;
+    background-color: #38ada9;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.book-form input.btn:hover{
+    border: 2px solid #38ada9;
+    background-color: #fff;
+    color: #38ada9;
+}
+
+table{
+    width: 80%;
+}
+table thead{
+    /* background-color: #cdcdce; */
+    height: 2rem;
+}
+table td{
+    text-align: center;
+    height: 2rem;
+    font-size: 1.3rem;
+}
+tbody tr:nth-child(2n+1){
+    background-color: #38ada957;
+}
+
+#book-list .btnDelete{
+    background: #ff3838;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    border-radius: 2px;
+}
